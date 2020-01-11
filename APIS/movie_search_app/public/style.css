@@ -1,0 +1,20 @@
+ul {
+  text-align: center;
+  list-style-position: inside;
+}
+
+div {
+  display: block;
+  text-align: center;
+}
+
+div form {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
