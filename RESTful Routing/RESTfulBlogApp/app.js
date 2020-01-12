@@ -30,7 +30,7 @@ var Blog = mongoose.model("Blog", blogSchema);
 
 /* RESFTUL ROUTES */
 
-// Root route
+// Root route (redirects to INDEX)
 app.get('/', (req, res) => {
   res.redirect('/blogs');
 });
