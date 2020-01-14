@@ -56,7 +56,7 @@ User.findOne({name: "Hermione Granger"}, (err, user) => {
   } else {
     user.posts.push({
       title: '3 things i rlly hate bruv',
-      content: 'cock, pussy, bitch'
+      content: 'u, u, u'
     });
     user.save((err, post) => {
       if(err) {
