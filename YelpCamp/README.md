@@ -69,7 +69,25 @@ SHOW      /dogs/:id   GET      Shows info about one dog
 * Make our errors go away
 * Display comments on campground show page
 
+
+# YelpCamp v4
+
 ## Comment New/Create
 * Discuss nested routes
 * Add the comment NEW and CREATE routes
 * Add the new comment button
+
+* INDEX   /campgrounds (GET)
+* NEW     /campgrounds/new
+* CREATE  /campgrounds (POST)
+* SHOW    /campgrounds/:id
+### Comments nested routes
+* NEW     /campgrounds/:id/comments/new (GET)
+* CREATE  /campgrounds/:id/comments/    (POST)
+
+
+# YelpCamp v5
+
+## Style Show Page
+* Add sidebar to show page
+* Display comments nicely
